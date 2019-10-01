@@ -20,6 +20,7 @@ module.exports = {
       {
         title: 'Getting Started',
         collapsable: true,
+        collapsed: false,
         children: [
           ['/getting-started/01-installation', 'Installation'],
           ['/getting-started/02-configuration', 'Configuration'],
@@ -29,9 +30,10 @@ module.exports = {
         title: 'Core Concepts',
         collapsable: false,
         children: [
-          '/concepts/01-addons',
-          '/concepts/02-migrations',
-          '/concepts/03-Navigation',
+          '/concepts/Addons',
+          '/concepts/Migrations',
+          '/concepts/Navigation',
+          '/concepts/Ports',
         ]
       },
     ]
