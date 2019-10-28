@@ -13,17 +13,16 @@ module.exports = {
         title: 'Introduction',
         collapsable: false,
         children: [
-          '/introduction/01-Features',
-          '/introduction/02-Terminology',
+          '/introduction/Features',
+          '/introduction/Terminology',
         ]
       },
       {
         title: 'Getting Started',
-        collapsable: true,
-        collapsed: false,
+        collapsable: false,
         children: [
-          ['/getting-started/01-installation', 'Installation'],
-          ['/getting-started/02-configuration', 'Configuration'],
+          ['/getting-started/Installation', 'Installation'],
+          ['/getting-started/Configuration', 'Configuration'],
         ]
       },
       {

@@ -1,7 +1,7 @@
 ---
 home: true
 actionText: Features →
-actionLink: /introduction/01-Features.html
+actionLink: /introduction/Features.html
 features:
 - title: Migrations on Steroids
   details: superV extends Laravel migrations and listens them. Result is a full-blown SPA panel with no other configuration needed.
