@@ -9,10 +9,11 @@
   "license": "ISC",
   "devDependencies": {
     "@vuepress/plugin-google-analytics": "^1.0.0-rc.1",
-    "vuepress": "^1.0.0-rc.1",
-    "tailwindcss": "^0.7.3"
+    "tailwindcss": "^0.7.3",
+    "vuepress": "^1.0.0-rc.1"
   },
   "dependencies": {
-    "global": "^4.4.0"
+    "global": "^4.4.0",
+    "vuepress-theme-yuu": "^2.2.0"
   }
 }

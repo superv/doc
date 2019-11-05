@@ -1,8 +1,9 @@
 module.exports = {
   title: 'superV',
-  description: 'A platform for Laravel',
-
   themeConfig: {
+    repo: 'superv/docs',
+    docsDir: 'docs',
+    editLinks: true,
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Github', link: 'https://github.com/superv/platform' },
@@ -10,29 +11,35 @@ module.exports = {
     displayAllHeaders: true,
     sidebar: [
       {
-        title: 'Introduction',
+        title: 'Basics',
         collapsable: false,
         children: [
-          '/introduction/Features',
-          '/introduction/Terminology',
+          '/basics/about',
+          '/basics/installation',
+          '/basics/configuration',
+          '/basics/identifiers',
+          '/basics/workflow',
         ]
       },
       {
-        title: 'Getting Started',
+        title: 'Addons',
         collapsable: false,
         children: [
-          ['/getting-started/Installation', 'Installation'],
-          ['/getting-started/Configuration', 'Configuration'],
+          'addons/',
+          'addons/modules',
+          'addons/panels'
         ]
       },
+      ['addons/', 'Addons'],
+      ['resources/', 'Resources'],
+      ['hooks/', 'Hooks'],
+      // ['frontend/', 'Frontend Development'],
       {
-        title: 'Core Concepts',
+        title: 'Tutorials',
         collapsable: false,
         children: [
-          '/concepts/Addons',
-          '/concepts/Migrations',
-          '/concepts/Navigation',
-          '/concepts/Ports',
+          'tutorials/case-study',
+          'tutorials/videos',
         ]
       },
     ]

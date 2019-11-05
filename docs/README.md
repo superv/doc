@@ -1,7 +1,8 @@
 ---
 home: true
-actionText: Features →
-actionLink: /introduction/Features.html
+actionText: Get Started →
+actionLink: /basics/about.html
+description: The new generation Open Source "Panel Maker" for Laravel
 features:
 - title: Migrations on Steroids
   details: superV extends Laravel migrations and listens them. Result is a full-blown SPA panel with no other configuration needed.
@@ -11,4 +12,5 @@ features:
   details: If it's CRUD all you want, then no need to bother with any file other than migrations.
 footer: MIT Licensed | Copyright © 2019 superV
 ---
+
 
