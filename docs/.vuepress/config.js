@@ -3,7 +3,9 @@ module.exports = {
   themeConfig: {
     repo: 'superv/docs',
     docsDir: 'docs',
+    docsBranch: '0.22',
     editLinks: true,
+    sidebarDepth: 3,
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Github', link: 'https://github.com/superv/platform' },
