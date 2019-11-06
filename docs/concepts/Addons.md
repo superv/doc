@@ -1,7 +1,5 @@
 # Addons
-Every single reusable composer package in superV platform is called an `addon`. 
 
-superV groups all your platform related addon packages under the `addons` directory that is located at your project root. While installing through composer, it detects platform specific packages and moves them here instead of the default vendor folder.  
 
 
 ### Addon Types

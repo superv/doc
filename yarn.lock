@@ -6214,6 +6214,11 @@ vm-browserify@^1.0.1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.0.tgz#bd76d6a23323e2ca8ffa12028dc04559c75f9019"
 
+vue-click-outside@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/vue-click-outside/-/vue-click-outside-1.0.7.tgz#cdd2b1605e3c4944784e1794eae4a12a0f700bd6"
+  integrity sha1-zdKxYF48SUR4TheU6uShKg9wC9Y=
+
 vue-hot-reload-api@^2.3.0:
   version "2.3.3"
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.3.tgz#2756f46cb3258054c5f4723de8ae7e87302a1ccf"
@@ -6284,6 +6289,13 @@ vuepress-plugin-container@^2.0.0:
   resolved "https://registry.yarnpkg.com/vuepress-plugin-container/-/vuepress-plugin-container-2.0.2.tgz#3489cc732c7a210b31f202556e1346125dffeb73"
   dependencies:
     markdown-it-container "^2.0.0"
+
+vuepress-theme-yuu@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/vuepress-theme-yuu/-/vuepress-theme-yuu-2.2.0.tgz#534dbb3da2ced745e01a8fd1b01fdd55d6d91fc9"
+  integrity sha512-UdyOTrk6DEE+f9LXA6ZxD4cAQg/izGnAt+8ETRLa/G1rlKtJMuMlEfDY/RZox/YrzWp4/+wV3XlU7NCD8o4lgg==
+  dependencies:
+    vue-click-outside "^1.0.7"
 
 vuepress@^1.0.0-rc.1:
   version "1.0.3"
